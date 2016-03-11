@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/proba-import-baze":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/proba-import-baze","hostpath":"E:/php_storm/laravel/HOMESTEAD/proba_import_baze","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"E:/php_storm/laravel/HOMESTEAD/proba_import_baze","disabled":false,"__vagrantfile":true}}}
