@@ -127,6 +127,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        mp3063\MailActivation\MailActivationServiceProvider::class,
         /*
          * Application Service Providers...
          */

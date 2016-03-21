@@ -1,0 +1,49 @@
+@media print {
+    #main1 {
+        border: none;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    .lista {
+        margin-left: -10px;
+        padding-left: 5px;
+        width: 25%;
+        float: left;
+    }
+
+    .lista1 {
+        padding-left: 5px;
+        width: 25%;
+        float: left;
+    }
+
+    .lista2 {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 25%;
+        float: left;
+    }
+
+    .ui-sortable-handle {
+        text-align: left;
+    }
+
+    #footer {
+        display: none;
+    }
+
+    .slika {
+        display: none;
+    }
+
+    #save {
+        display: none;
+    }
+
+    @page {
+        size: portrait;
+    }
+}

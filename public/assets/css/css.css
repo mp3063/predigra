@@ -1,0 +1,189 @@
+
+body {
+    background-color: #000000;
+    color: #ffff00;
+    text-align: center;
+}
+
+body > a {
+    color: red;
+}
+
+#nav {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#nav ul li a {
+    background: url("../images/navigation-separator.png") no-repeat right center;
+    /*font-size: larger;*/
+    color: #f1f800;
+}
+
+.nav {
+    border-bottom: none;
+}
+
+.moje li:hover {
+    background-image: url("../images/navigation-hover.png");
+
+}
+
+#nav ul li a:hover {
+    color: #000000;
+}
+
+.header {
+    background-image: url("../images/navigation-bg.jpg");
+    background-size: cover;
+    border: solid 4px #4f4f4f;
+    border-bottom: none;
+    -webkit-background-size: cover;
+    /*border-width:25px 30px 10px 20px;*/
+    /*-moz-border-image:url("../images/lanac.jpg") 50 30 10 20 repeat stretch;*/
+    /*-webkit-border-image:url("../images/lanac.jpg") 50 30 10 20 repeat stretch;*/
+    /*border-image:url("../images/lanac.jpg") 50 30 10 20 repeat stretch;*/
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.slika {
+    /*background-image: url("../images/death-grim-electric-guitars-artwork-200%25prava.jpg");*/
+    border: solid 4px #4f4f4f;
+    border-bottom: none;
+}
+
+#galerija-slike {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main {
+    border: solid 4px #4f4f4f;
+    color: #ffff00;
+}
+
+#main1 {
+    border: solid 4px #4f4f4f;
+    color: #ffff00;
+    height: auto;
+}
+
+td:hover {
+    cursor: pointer;
+}
+
+#footer {
+    border: solid 4px #4f4f4f;
+    border-top: none;
+    color: #ffff00;
+    height: auto;
+}
+
+.table {
+    margin: 0;
+}
+
+#sidebar {
+    padding: 15% 10%;
+}
+
+.sidebar {
+    border-left: solid 4px #4f4f4f;
+    height: 495px;
+    padding-left: 0;
+    padding-right: 0;
+    /*background: url("../images/old-scroll-3_text.png");*/
+    /*-webkit-background-size: contain;*/
+    /*-moz-background-size: contain;*/
+    /*-o-background-size: contain;*/
+    /*background-size: contain;*/
+}
+
+.scroll {
+    height: 495px;
+    overflow-y: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#nav .navbar.navbar-inverse {
+    margin-bottom: 0;
+}
+
+.predlozi {
+    text-align: left;
+}
+
+.boja_th {
+    background-color: #2180ac;
+}
+
+.mojwell {
+    background: #2e2e2e;
+}
+
+.modal-content {
+    background-color: rgba(15, 0, 0, 0.90);
+}
+
+.log_btn {
+    width: 33.3%;
+}
+
+h3 {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.highlight {
+    background: red;
+    color: #fff3a0;
+    text-align: center;
+}
+
+.ui-sortable-handle {
+    background-color: rgba(255, 51, 153, 0.1);
+    border: thin double rgba(255, 255, 0, .5);
+    border-radius: 5px;
+    font-size: 15px;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.ui-sortable-handle:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.scroll::-webkit-scrollbar-track {
+    background-color: #333;
+    -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.scroll::-webkit-scrollbar {
+    background-color: #ff3922;
+    width: 6px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border: 1px solid #555555;
+}
+
+@media (max-width: 767px) {
+    .header {
+        background-image: none;
+        display: none !important;
+    }
+}
+
+@media (min-width: 767px) {
+    .header1 {
+        display: none !important;
+    }
+}
