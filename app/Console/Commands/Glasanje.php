@@ -37,9 +37,9 @@ class Glasanje extends Command
     /**
      * Execute the console command.
      *
-     * @param \App\Http\Requests\NasiPredloziRequest $request
-     *
      * @return mixed
+     * @internal param \App\Http\Requests\NasiPredloziRequest $request
+     *
      */
     public function handle()
     {

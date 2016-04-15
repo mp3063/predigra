@@ -16,8 +16,8 @@ class SinFire
     
     public function fire()
     {
-        $this->sendMail();
         $this->generateCodeActive();
+        $this->sendMail();
         $this->insertUpdateDB();
         $this->theLastUpdate();
     }

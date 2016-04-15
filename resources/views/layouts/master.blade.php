@@ -40,7 +40,7 @@
 
 @if(Auth::check())
     Dobrodosli {{Auth::user()->username}}<br/>
-    <a href="/auth/logout">Log Out</a>
+    <a href="/logout">Log Out</a>
 @endif
 <div class="container">
     <div class="row slika">

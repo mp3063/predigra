@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="PhpProjectSharedConfiguration" php_language_level="7" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings bootstrap_file_path="$PROJECT_DIR$/bootstrap/autoload.php" configuration_file_path="$PROJECT_DIR$/phpunit.xml" custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" phpunit_phar_path="C:/Program Files (x86)/Ampps/php/phpunit.phar" use_bootstrap_file="true" use_configuration_file="true" />
+      <phpunit_by_interpreter interpreter_id="b2244800-f9f4-495a-a82e-b7059b9923f7" bootstrap_file_path="/home/vagrant/proba-import-baze/bootstrap/autoload.php" configuration_file_path="/home/vagrant/proba-import-baze/phpunit.xml" custom_loader_path="/vagrant/vendor/autoload.php" phpunit_phar_path="C:\Program Files (x86)\Ampps\php\phpunit.phar" use_bootstrap_file="true" use_configuration_file="true" />
+    </phpunit_settings>
+  </component>
 </project>

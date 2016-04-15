@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2303264476">
-    <data-source source="LOCAL" name="MySQL - homestead@localhost" uuid="4c633b0b-c3cd-49ee-a374-372da37898a3">
-      <driver-ref>mysql</driver-ref>
+  <component name="DataSourceManagerImpl" format="xml">
+    <data-source source="LOCAL" name="MySQL - cms@localhost driver - predigra_refactor@localhost" uuid="21602ba4-21bc-4799-8148-cf8ce065eb3c">
+      <driver-ref>b2602f0d-68a3-4d10-9442-76f1f2c55b4f</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:33060/homestead</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/predigra_refactor</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />
