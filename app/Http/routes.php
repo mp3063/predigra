@@ -11,13 +11,13 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/repertoar', 'Pages\RepertoarController@displayRepertoarPage');
     Route::post('/repertoar', [
         'middleware' => 'auth',
-        'uses'       => 'Pages\RepertoarController@setListeAjax'
+        'uses'       => 'Pages\RepertoarController@setListeAjax',
     ]);
     //Predlozi
     Route::get('/predlozi', 'Pages\PredloziController@displayPredloziPage');
     Route::post('/predlozi', [
         'middleware' => 'auth',
-        'uses'       => 'Pages\PredloziController@predloziPost'
+        'uses'       => 'Pages\PredloziController@predloziPost',
     ]);
     //Kontakt
     Route::get('/kontakt', 'Pages\KontaktController@displayKontaktPage');
@@ -29,11 +29,11 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/rupa/{id}', 'Pages\RupaController@displayByLink');
     Route::post('/updateAjax', [
         'middleware' => 'auth',
-        'uses'       => 'Pages\RupaController@updateAjax'
+        'uses'       => 'Pages\RupaController@updateAjax',
     ]);
     Route::post('/nove-pesme-skidanje', [
         'middleware' => 'auth',
-        'uses'       => 'Pages\RupaController@novePesmeZaSkidanje'
+        'uses'       => 'Pages\RupaController@novePesmeZaSkidanje',
     ]);
     //Nasi predlozi
     Route::group(['middleware' => 'auth'], function () {
@@ -47,4 +47,9 @@ Route::group(['middleware' => ['web']], function () {
         function () {
             
         });
+    Route::auth();
 });
+
+
+
+

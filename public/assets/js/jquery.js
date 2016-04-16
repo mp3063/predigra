@@ -154,7 +154,8 @@ $(document).ready(function () {
             id++;
             dd++;
             cd++;
-            $("#zadnji").append('<div class="form-group remove_field"><input required type="text" class="form-control" name="' + id + '" placeholder="Bend"/></div><div class="form-group remove_field"><input required type="text" class="form-control" name="' + dd + '" placeholder="Pesma"/></div><div class="form-group remove_field"><input required type="text" class="form-control" name="' + cd + '" placeholder="Link"/></div><div class="form-group remove_field"><button class="btn btn-success btn-sm pull-right minus"><i class="glyphicon glyphicon-minus"></i></button></div>');
+            $("#zadnji").append(
+                '<div class="form-group remove_field"><input required type="text" class="form-control" name="' + id + '" placeholder="Bend"/></div><div class="form-group remove_field"><input required type="text" class="form-control" name="' + dd + '" placeholder="Pesma"/></div><div class="form-group remove_field"><input required type="text" class="form-control" name="' + cd + '" placeholder="Link"/></div><div class="form-group remove_field"><button class="btn btn-success btn-sm pull-right minus"><i class="glyphicon glyphicon-minus"></i></button></div>');
             id++;
             id++;
             dd++;
@@ -170,6 +171,8 @@ $(document).ready(function () {
         });
     });
 
+
+    $(document).pjax('a', '#pjax-container');
 
 });
 

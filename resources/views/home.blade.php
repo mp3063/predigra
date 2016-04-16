@@ -4,7 +4,7 @@
     Predigra
 @endsection
 @section('content')
-    <div id="main" align="center" class="container" xmlns="http://www.w3.org/1999/html">
+    <div id="main" align="center" class="container">
         <div class="row">
             <div class="col-md-9 scroll">
 

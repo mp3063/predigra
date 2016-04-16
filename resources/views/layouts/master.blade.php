@@ -15,7 +15,7 @@
     <title>@yield('title')</title>
     {{--<link href="assets/css/style.css" rel="stylesheet" type="text/css">--}}
 
-            <!-- Bootstrap -->
+<!-- Bootstrap -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="/assets/css/bootstrap-theme.css" rel="stylesheet">
 
@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="/assets/css/print.css">
     <link rel="stylesheet" href="/assets/css/css.css">
     <script src="/assets/js/js.js"></script>
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -52,12 +53,12 @@
 
 @include('partials.navigation')
 
+<div id="pjax-container">
+    @yield('content')
 
-@yield('content')
 
-
-@yield('sidebar')
-
+    @yield('sidebar')
+</div>
 
 @include('partials.footer')
 
@@ -78,17 +79,14 @@
 
 </script>
 
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script src="//code.jquery.com/ui/1.12.3/jquery-ui.js"></script>
 <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
 <script src="/assets/js/bootstrap-image-gallery.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
 <script src="/assets/js/touch.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.pjax/1.9.6/jquery.pjax.min.js"></script>
 <script src="/assets/js/jquery.js"></script>
-    {{--<script src="/assets/js/easypiechart.js"></script>--}}
-
-            <!-- Include all compiled plugins (below), or include individual files as needed -->
-{{--<script src="js/bootstrap.min.js"></script>--}}
 </div>
 
 </body>
